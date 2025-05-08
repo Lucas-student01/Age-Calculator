@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Idade</h1>
+    </header>
+    <main>
+        <div>
+            <p>Ano de Ncascimento: 
+                <input type="date" name="ano" id="ano">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="input_sex" id="feminino">
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="input_sex" id="masculino">
+                <label for="masculino">Masculino</label>
+            </p>
+            <input type="button" value="Verificar" onclick="Verificar()">
+        </div>
+        <div>
+            <p class="resultado">Aqui vai ficar o resultado!</p>
+        </div>
+    </main>
+    <footer>
+        <h6>&copy; LucasSantos</h6>
+    </footer>
+</body>
+</html>
